@@ -1,0 +1,104 @@
+button.navbar-toggler {
+    background-color: transparent; 
+    background-image: url(../Imagenes/Iconos/btnMenu.png); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    width: 30px; 
+    height: 30px; 
+    border: none;
+}
+
+.namePage {
+    text-align: center;
+}
+
+
+
+.namePage p {
+    font-family:'Lucida Sans Unicode';
+}
+
+.title-categorias {
+    text-align: center;
+    font-size: 1.6rem;
+    font-family: 'Lucida Sans Unicode';
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
+.card-title{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.btn.custom-button {
+    background-color: transparent;
+    color: #00000049;
+    border: 2px solid #00000049;
+    padding: 2px 8px;
+    transition: background-color 0.3s;
+}
+
+.btn.custom-button span {
+    color: #fff;
+}
+
+.btn.custom-button:hover {
+    background-color: #006aff !important;
+    color: #fff !important;
+}
+
+
+.card-title {
+    font-size: 1rem;
+    font-weight: bold;
+    white-space: nowrap; /* Evita que el título se divida en varias líneas */
+    overflow: hidden; /* Oculta el texto que desborda */
+    text-overflow: ellipsis; /* Muestra puntos suspensivos (...) */
+    text-align: center;
+}
+
+.card-border{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 2%;
+    text-align: center;
+}
+.contenedor-footer{
+    padding: 4%;
+    text-align: center;
+    font-size: 100%;
+}
+
+.custom-card {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: row; /* Cambiar de 'column' a 'row' */
+    justify-content: center; /* Alinear elementos hijos en el centro horizontalmente */
+    align-items: stretch; /* Estirar elementos hijos para que tengan la misma altura */
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .namePage h1 {
+        margin-top: 3%;
+        font-family: Impact;
+        font-size: 2.5rem;
+    }
+    .contenedor-footer{
+        padding: 6% 0% 6% 0% !important;
+        text-align: center;
+        font-size: 60%;
+    }
+
+}
+@media screen and (max-width: 400px) {
+    .contenedor-footer{
+        padding: 6% 0% 6% 0% !important;
+        text-align: center;
+        font-size: 60%;
+    }
+}
